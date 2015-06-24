@@ -1,0 +1,47 @@
+import Pyro4
+import os
+
+from subprocess import check_output
+IP=check_output(['hostname', '-I'])
+IP=IP.strip()
+
+def obtenir_comandes():
+
+	"""
+	crea un diccionari a partir del fitxer config, caracteristic de cada Raspberry.
+	"""
+
+	d={}
+
+	f=open("/home/pi/SCV-jasper/CONFIGURATION/config.txt",'r')
+	lines=f.readlines()
+	for el in lines:
+
+		veu,comanda=el.split('*')
+		d[veu]=comanda
+
+	return d
+	
+class comandes():
+
+	"""
+	Aquesta classe fa que les comandes al fitxer config siguin accessibles des de tot arreu
+	"""
+
+	def __init__(self):
+
+		self.diccionari=obtenir_comandes()
+
+	def diccionari_actual(self):
+
+		return self.diccionari
+
+	def modifica(self,dic):
+	
+		self.diccionari=dic
+
+
+comandes=comandes()
+
+Pyro4.Daemon.serveSimple({comandes:"jasper.comandes"},port=5162,host='192.168.1.37',ns=False)
+

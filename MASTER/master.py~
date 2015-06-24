@@ -1,0 +1,35 @@
+import time
+import Pyro4
+import signal
+
+def signal_handler(signum, frame):
+
+    raise Exception("Timed out!")
+
+direccions=range(2,255)
+diccionari_complert={}
+
+for direccio in direccions:
+
+	print direccio
+
+	comandes=Pyro4.Proxy("PYRO:jasper.comandes@192.168.1.%s:5162"%(str(direccio)))
+	signal.signal(signal.SIGALRM, signal_handler)
+	signal.setitimer(signal.ITIMER_REAL,0.1) 
+	try:
+
+		diccionari=comandes.diccionari_actual()
+		for el in diccionari.keys():
+			diccionari_complert[el]=[diccionari[el],"192.168.1."+str(direccio)]
+
+	except Exception, msg:
+		pass
+
+class comandes_complertes():
+
+	def diccionari(self):
+		return diccionari_complert
+
+
+comandes_complertes=comandes_complertes()
+Pyro4.Daemon.serveSimple({comandes_complertes:"jasper.comandes_complertes"},port=5164,host='192.168.1.37',ns=False)

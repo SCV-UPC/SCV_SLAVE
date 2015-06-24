@@ -1,0 +1,30 @@
+<html>
+	<head>
+
+		<meta name='viewport' content='width=device-width,initial-scale=1'>
+		<title>JASPER</title>
+
+	</head>
+</html>
+
+<?php
+echo 'Soporte web para el Sistema de control por voz';
+if (isset($_POST['rojo_on'])){shell_exec("python /var/www/jasper_commands.py");}
+else if (isset($_POST['rojo_off'])){shell_exec("python /var/www/jasper_commands2.py");}
+else if (isset($_POST['radio_on'])){shell_exec("python /var/www/jasper_commands3.py");}
+else if (isset($_POST['radio_off'])){shell_exec("python /var/www/jasper_commands4.py");}
+?>
+<FORM NAME="blink" Method='POST'>
+	<p>
+		<?php
+		echo '<button name="rojo_on">ENCENDER LED ROJO</button>';
+		echo '<button name="rojo_off">APAGAR LED ROJO</button>';
+		?>
+	</p>
+	<p>
+		<?php
+		echo '<button name="radio_on">PONER MUSICA</button>';
+		echo '<button name="radio_off">APAGAR MUSICA</button>';
+		?>
+	</p>
+</FORM>

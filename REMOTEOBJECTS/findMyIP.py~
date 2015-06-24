@@ -1,0 +1,7 @@
+from subprocess import check_output
+
+def findMyIP():
+
+	IP=check_output(['hostname', '-I'])
+	return IP.strip()
+

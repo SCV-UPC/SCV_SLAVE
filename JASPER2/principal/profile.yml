@@ -1,0 +1,7 @@
+carrier: ''
+gmail_password: ''
+phone_number: ''
+prefers_email: true
+stt_engine: witai
+witai-stt:
+      access_token: AHWDLGI7GWULZLVKKTTX5FOADV74THYV
