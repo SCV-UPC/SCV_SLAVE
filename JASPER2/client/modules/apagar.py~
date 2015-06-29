@@ -1,4 +1,0 @@
-import pigpio
-
-p1=pigpio.pi()
-p1.write(18,0)

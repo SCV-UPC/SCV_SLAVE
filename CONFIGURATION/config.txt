@@ -1,10 +1,11 @@
-nom*MASTER
+nom*SLAVE
 app_key AT&T*akgpcgksgua9ak6coo2gbsmcipbw4tza
 app_secret AT&T*q7m0gegmnh6aidcycvkgalczhp1m6d5y
 token WITAI en angles*62Z4YOLS4ULORUBITFVT7WO6DJULX2ZV
 token WITAI en castella*AHWDLGI7GWULZLVKKTTX5FOADV74THYV
 key Google*AIzaSyDgU56QeumsMHrJ6kP7xXOMCM8hFOKZp6U
 motor STT a usar*witaiC
+
 
 
 

@@ -164,7 +164,7 @@ class EspeakTTS(AbstractTTSEngine):
         self._logger.debug("Saying '%s' with '%s'", phrase, self.SLUG)
         with tempfile.NamedTemporaryFile(suffix='.wav', delete=False) as f:
             fname = f.name
-        cmd = ['espeak', '-ves', phrase]###Modificat per tenir espeak en castella
+        cmd = ['espeak', '-ves+f1','-s 200', phrase]###Modificat per tenir espeak en castella
         cmd = [str(x) for x in cmd]
         self._logger.debug('Executing %s', ' '.join([pipes.quote(arg)
                                                      for arg in cmd]))

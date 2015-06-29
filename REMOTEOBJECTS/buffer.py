@@ -4,18 +4,14 @@ import cercaIP
 IP=cercaIP.cerca()
 	
 class Buffer():
-	
 
 	def __init__(self):
-
 		self.buffer='Iniciant...'
 
 	def valor_actual(self):
-
 		return self.buffer
 
 	def modifica_valor(self,variable):
-	
 		self.buffer=variable
 
 Buffer=Buffer()

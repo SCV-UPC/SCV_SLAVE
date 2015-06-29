@@ -1,7 +1,0 @@
-import Pyro4
-
-
-gpio=Pyro4.Proxy("PYRO:example.gpio@192.168.1.202:5150")
-gpio.apagar_rojo()
-	
-

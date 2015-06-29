@@ -3,12 +3,8 @@ import os
 import cercaIP
 
 class executaComanda():
-	"""
-	Aquesta classe permet executar una comanda a cadascuna de les diferents Raspberry's, de 
-	froma local, gracies a l'us d'objectes remots.
-	"""
+	
 	def executa(self,comanda):
-
 		os.system(comanda)
 
 executaComanda=executaComanda()

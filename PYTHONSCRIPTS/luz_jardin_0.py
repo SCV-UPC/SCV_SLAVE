@@ -1,0 +1,18 @@
+import Pyro4
+import sys
+
+IP_MASTER=sys.argv[1]
+
+simulador=Pyro4.Proxy("PYRO:jasper.Simulador@%s:5123"%(IP_MASTER))
+
+try:
+	llista=simulador.valor_actual()
+	llista[24]=0
+	llista[25]=0
+	llista[26]=0
+	llista[27]=0
+	simulador.modifica_estat(llista)
+
+except:
+
+	pass

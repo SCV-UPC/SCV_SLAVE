@@ -1,31 +1,26 @@
-ALARMA*python /home/pi/SCV/PYTHONSCRIPTS/alarma.py
-CANAL*python /home/pi/SCV/PYTHONSCRIPTS/canal.py
-TEMPERATURA*python /home/pi/SCV/PYTHONSCRIPTS/temperatura.py
-ABRIR VENTANA SALON*python /home/pi/SCV/PYTHONSCRIPTS/ventana_salon_0.py
-CERRAR VENTANA SALON*python /home/pi/SCV/PYTHONSCRIPTS/ventana_salon_1.py
-ABRIR VENTANA HABITACION PRINCIPAL*python /home/pi/SCV/PYTHONSCRIPTS/ventana_hab_principal_0.py
-CERRAR VENTANA HABITACION PRINCIPAL*python /home/pi/SCV/PYTHONSCRIPTS/ventana_hab_principal_1.py
-ABRIR VENTANA HABITACION NINOS*python /home/pi/SCV/PYTHONSCRIPTS/ventana_hab_ninos_0.py
-CERRAR VENTANA HABITACION NINOS*python /home/pi/SCV/PYTHONSCRIPTS/ventana_hab_ninos_1.py
-ABRIR VENTANA COCINA*python /home/pi/SCV/PYTHONSCRIPTS/ventana_cocina_0.py
-CERRAR VENTANA COCINA*python /home/pi/SCV/PYTHONSCRIPTS/ventana_cocina_1.py
-ABRIR PUERTA SALON*python /home/pi/SCV/PYTHONSCRIPTS/puerta_salon_0.py
-CERRAR PUERTA SALON*python /home/pi/SCV/PYTHONSCRIPTS/puerta_salon_1.py
-ABRIR PUERTA COCINA*python /home/pi/SCV/PYTHONSCRIPTS/puerta_cocina_0.py
-CERRAR PUERTA COCINA*python /home/pi/SCV/PYTHONSCRIPTS/puerta_cocina_1.py
-ABRIR PUERTA JARDIN*python /home/pi/SCV/PYTHONSCRIPTS/puerta_jardin_0.py
-CERRAR PUERTA JARDIN*python /home/pi/SCV/PYTHONSCRIPTS/puerta_jardin_1.py
-APAGAR LUZ COCINA*python /home/pi/SCV/PYTHONSCRIPTS/luz_cocina_0.py
-ENCENDER LUZ COCINA*python /home/pi/SCV/PYTHONSCRIPTS/luz_cocina_1.py
-APAGAR LUZ SALON*python /home/pi/SCV/PYTHONSCRIPTS/luz_salon_0.py
-ENCENDER LUZ SALON*python /home/pi/SCV/PYTHONSCRIPTS/luz_salon_1.py
-APAGAR LUZ HABITACION PRINCIPAL*python /home/pi/SCV/PYTHONSCRIPTS/luz_hab_principal_0.py
-ENCENDER LUZ HABITACION PRINCIPAL*python /home/pi/SCV/PYTHONSCRIPTS/luz_hab_principal_1.py
-APAGAR LUZ HABITACION NINOS*python /home/pi/SCV/PYTHONSCRIPTS/luz_hab_ninos_0.py
-ENCENDER LUZ HABITACION NINOS*python /home/pi/SCV/PYTHONSCRIPTS/luz_hab_ninos_1.py
-APAGAR TELEVISOR*python /home/pi/SCV/PYTHONSCRIPTS/televisor_0.py
-ENCENDER TELEVISOR*python /home/pi/SCV/PYTHONSCRIPTS/televisor_1.py
-APAGAR VENTILADOR*python /home/pi/SCV/PYTHONSCRIPTS/ventilador_0.py
-ENCENDER VENTILADOR*python /home/pi/SCV/PYTHONSCRIPTS/ventilador_1.py
-PONER MUSICA SALON*python /home/pi/SCV/PYTHONSCRIPTS/musica_salon_1.py
-APAGAR MUSICA SALON*python /home/pi/SCV/PYTHONSCRIPTS/musica_salon_0.py
+CERRAR VENTANA GARAJE*python /home/pi/SCV/PYTHONSCRIPTS/ventana_garaje_1.py
+ABRIR VENTANA GARAJE*python /home/pi/SCV/PYTHONSCRIPTS/ventana_garaje_0.py
+CERRAR PUERTA BANO*python /home/pi/SCV/PYTHONSCRIPTS/puerta_WC_1.py
+ABRIR PUERTA BANO*python /home/pi/SCV/PYTHONSCRIPTS/puerta_WC_0.py
+CERRAR PUERTA HABITACION PRINCIPAL*python /home/pi/SCV/PYTHONSCRIPTS/puerta_hab_principal_1.py
+ABRIR PUERTA HABITACION PRINCIPAL*python /home/pi/SCV/PYTHONSCRIPTS/puerta_hab_principal_0.py
+CERRAR PUERTA HABITACION NINOS*python /home/pi/SCV/PYTHONSCRIPTS/puerta_hab_ninos_1.py
+ABRIR PUERTA HABITACION NINOS*python /home/pi/SCV/PYTHONSCRIPTS/puerta_hab_ninos_0.py
+CERRAR PUERTA ENTRADA*python /home/pi/SCV/PYTHONSCRIPTS/puerta_entrada_1.py
+ABRIR PUERTA ENTRADA*python /home/pi/SCV/PYTHONSCRIPTS/puerta_entrada_0.py
+CERRAR PUERTA GARAJE GRANDE*python /home/pi/SCV/PYTHONSCRIPTS/puerta_garaje_grande_1.py
+ABRIR PUERTA GARAJE GRANDE*python /home/pi/SCV/PYTHONSCRIPTS/puerta_garaje_grande_0.py
+CERRAR PUERTA GARAJE PEQUENA*python /home/pi/SCV/PYTHONSCRIPTS/puerta_garaje_pequena_1.py
+ABRIR PUERTA GARAJE PEQUENA*python /home/pi/SCV/PYTHONSCRIPTS/puerta_garaje_pequena_0.py
+CERRAR PUERTA EXTERIOR*python /home/pi/SCV/PYTHONSCRIPTS/puerta_exterior_1.py
+ABRIR PUERTA EXTERIOR*python /home/pi/SCV/PYTHONSCRIPTS/puerta_exterior_0.py
+ENCENDER LUZ GARAJE*python /home/pi/SCV/PYTHONSCRIPTS/luz_garaje_1.py
+APAGAR LUZ GARAJE*python /home/pi/SCV/PYTHONSCRIPTS/luz_garaje_0.py
+ENCENDER LUZ ENTRADA*python /home/pi/SCV/PYTHONSCRIPTS/luz_entrada_1.py
+APAGAR LUZ ENTRADA*python /home/pi/SCV/PYTHONSCRIPTS/luz_entrada_0.py
+ENCENDER ASPERSORES*python /home/pi/SCV/PYTHONSCRIPTS/agua_jardin_1.py
+APAGAR ASPERSORES*python /home/pi/SCV/PYTHONSCRIPTS/agua_jardin_0.py
+ENCENDER LUZ JARDIN*python /home/pi/SCV/PYTHONSCRIPTS/luz_jardin_1.py
+APAGAR LUZ JARDIN*python /home/pi/SCV/PYTHONSCRIPTS/luz_jardin_0.py
+PONER MUSICA ENTRADA*python /home/pi/SCV/PYTHONSCRIPTS/musica_1.py
+CERRAR MUSICA ENTRADA*python /home/pi/SCV/PYTHONSCRIPTS/musica_0.py

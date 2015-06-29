@@ -1,7 +1,0 @@
-import time
-import editorPHP
-
-while(1):
-	
-	editorPHP.actualitza()
-	time.sleep(200)

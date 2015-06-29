@@ -1,7 +1,0 @@
-import Pyro4
-from subprocess import check_output
-
-
-IP=check_output(['hostname', '-I'])
-
-

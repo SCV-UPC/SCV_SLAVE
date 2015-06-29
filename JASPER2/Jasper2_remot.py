@@ -5,16 +5,12 @@ import logging
 import Pyro4
 import time
 import cercaIP
-
 import yaml
 import argparse
-
 from client import tts, stt, jasperpath, diagnose
 from client.conversation import Conversation
-
 from client.mic import Mic
 
-    
 stt_engine_class = stt.get_engine_by_slug('sphinx')
 tts_engine_class = tts.get_engine_by_slug('espeak-tts')
 
@@ -69,7 +65,6 @@ class mic_remot():
 
 	def parla_5(self,text):
 		mic5.say(text)
-
 
 mic_remot=mic_remot()
 Pyro4.Daemon.serveSimple({mic_remot:"jasper.mic_remot"},port=5211,host=cercaIP.cerca(),ns=False)
